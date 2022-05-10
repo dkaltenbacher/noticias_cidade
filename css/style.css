@@ -65,7 +65,40 @@ ul{
     color: #69001b;
 }
 
-.home .primeiro{
+.header .primeiro{
     background: #de003e;
     cursor: text;
+}
+
+/*Main */
+
+.main{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+.primario{
+    width: 270px;
+    float: left;
+    background: blue;
+}
+
+.secundario{
+    width: 270px;
+    float: left;
+    background: green;
+}
+
+.lateral{
+    width: 180px;
+    float: left;
+    background: yellow;
+}
+
+.footer{
+    /* Remove fluxo float anterior */
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+    color: #fff;
 }
