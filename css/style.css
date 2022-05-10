@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x top;
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;   
+}
+
+.topo{
+    height: 180px;
+    padding-top: 25px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
