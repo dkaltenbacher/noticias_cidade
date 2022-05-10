@@ -78,12 +78,28 @@ ul{
 }
 
 .primario{
+    width: 750px;
+    float: left;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+
+.primario_duas_colunas{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background-color: blue;
+}
+.primario_tres_colunas{
     width: 270px;
     float: left;
+    margin: 0 0 20px 195px;
     background: blue;
 }
 
+
 .secundario{
+    margin: 0 0 20px 15px;
     width: 270px;
     float: left;
     background: green;
@@ -91,12 +107,34 @@ ul{
 
 .lateral{
     width: 180px;
+    margin: 0 0 20px -750px;
     float: left;
-    background: yellow;
+}
+/* lateral */
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: url(../img/fundo-caixa.png);
+}
+
+.caixa h2{
+    font-size: 1,1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.caixa_conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .footer{
-    /* Remove fluxo float anterior */
+    /* clear: both - Remove fluxo float anterior */
     clear: both;
     background: #294c71;
     padding: 20px;
